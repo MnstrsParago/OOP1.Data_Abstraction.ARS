@@ -1,45 +1,40 @@
-# Airline Reservation System
+# ✈️ Airline Reservation System (ARS)
 
-**Subject:** Object-Oriented Programming  
-**Assignment 2:** Data Abstraction  
-**Student:** Ayazbek Abdanur
+**Subject:** Object-Oriented Programming (OOP) / Data Abstraction  
+**Name:** Abdanur
 
 ## 📌 Project Description
+**Airline Reservation System (ARS)** is a small Java project that shows basic **OOP** and **data abstraction**.  
+It models a simple reservation flow using three main classes:
 
-This project implements a simple Airline Reservation System using core OOP concepts in Java. It demonstrates the principles of **data abstraction** by modeling three main entities:
 - `Flight`
 - `Passenger`
 - `Reservation`
 
-Each class encapsulates relevant attributes and behaviors, enabling clear object interaction and system logic.
+The goal is to keep class data protected and provide clear methods to work with the system.
 
 ## 💡 Features
-
-- Book a seat on a flight.
-- Link reservations between a flight and a passenger.
-- Display detailed information about flights, passengers, and reservations.
-- Check equality between different flight instances (based on `.equals()`).
+- Create flights and passengers
+- Book a reservation (connect a passenger with a flight)
+- Print details about flights, passengers, and reservations
+- Compare objects using `.equals()` (based on the class implementation)
 
 ## 📦 Technologies
-
-- Language: Java
-- IDE: IntelliJ IDEA
-- Version Control: Git + GitHub
-
-## 🧠 OOP Concepts Demonstrated
-
-- **Abstraction**: Classes expose only the necessary interface.
-- **Encapsulation**: All data is kept private and accessed through methods.
-- **Class composition**: Reservation is composed of a Flight and a Passenger.
+- **Java**
+- **OOP principles** (Abstraction, Encapsulation, Composition)
+- Git + GitHub
 
 ## 🚀 How to Run
+1) Clone the repository:
+```bash
+git clone https://github.com/MnstrsParago/OOP1.Data_Abstraction.ARS.git
+cd OOP1.Data_Abstraction.ARS
+```
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/OOP.ASG2.Data_Abstraction.git
-2. Open in IntelliJ IDEA (or any IDE of your choice).
+2) Open the project in any Java IDE (for example IntelliJ IDEA).
 
-3. Run Main.java.
+3) Run `Main.java`.
 
-📘 Reflection
-This project was developed as part of the OOP. I enjoyed modeling real-world systems and applying theoretical concepts into working code. Although I found the experience valuable and the structure of the code quite solid from my current perspective.
+## 📘 Reflection
+This project helped me practice OOP structure and data abstraction and this time I have totally understood it. Also first experiences in Java :-)  
+I focused on building clean classes and simple logic that connects flights, passengers, and reservations in an easy-to-understand way.
